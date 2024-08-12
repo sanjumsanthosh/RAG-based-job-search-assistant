@@ -14,6 +14,20 @@ The Gradio demo can be run by
 python src/gradio_demo.py
 ```
 
+## Installation using venv
+
+```bash
+uv venv
+```
+
+```bash
+source .venv/bin/activate
+```
+
+```bash
+uv pip install -r requirements.txt
+```
+
 ## Architecture Overview
 
 Here is the most simplistic RAG-based Job Search Assistant architecture overview.
